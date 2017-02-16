@@ -1,0 +1,22 @@
+.PLC_math{
+    position: absolute;
+    height: 95px;
+    width: 183px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    font-size: 14px;
+    color: black;
+}
+
+.sourceA_type{
+
+}
+
+.sourceB_type{
+
+}
+
+.dest_type{
+
+}

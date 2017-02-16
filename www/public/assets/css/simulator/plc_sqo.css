@@ -1,0 +1,145 @@
+#m7_ex2_space{
+    position: absolute;
+    left: 10px;
+    top:0;
+    height: 800px;
+    width: 1150px;
+    background-color: white;
+    color: black;
+}
+
+#mod7_sec2_output{
+    margin-bottom: 30px;
+}
+
+#mod7_sec2_mask{
+    margin-bottom: 30px;
+}
+
+#plc_sqc{
+    position: absolute;
+    top:50px;
+    left:120px;
+    height: 200px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    font-size: 14px;
+    color: black;
+}
+
+.sqc_input{
+    width: 67px;
+}
+
+#mod7_ote{
+    position: absolute;
+    top:50px;
+    left:70px;
+}
+
+#mod7_sec2_dash{
+    position:absolute;
+    top:65px;
+    left:20px;
+    background-color: black;
+    height: 2px;
+    width: 200px;
+}
+
+#ote_name{
+    position:absolute;
+    top: -15px;
+}
+
+#mod7_sec2_data{
+    /*font-weight: bold;*/
+    position: absolute;
+    left:350px;
+    top:20px;
+}
+
+.mod7_table{
+    border-collapse: collapse;
+}
+
+.mod7_table * {
+    border: 1px solid black;
+}
+
+.mod7_table th{
+    width: 40px
+}
+
+#sim_space{
+    height: 150px;
+    width: 510px;
+    border: 5px double #bdc3c7;
+    border-radius: 15px;
+    position: absolute;
+    left: 350px;
+    top: 420px;
+}
+
+#mod7_sec2_button_1{
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    padding: 5px 5px;
+    border-radius: 25px;
+}
+
+#red_light{
+    position: absolute;
+    left:180px;
+}
+
+#yellow_light{
+    position: absolute;
+    left:330px;
+}
+
+#light_1_title{
+    position: absolute;
+    top: 100px;
+    left:170px;
+    width: 100px;
+}
+
+#light_2_title{
+    position: absolute;
+    top: 100px;
+    left:320px;
+    width: 100px;
+}
+
+#wire_img{
+    position: absolute;
+    top: 90px;
+    left:-35px;
+}
+
+#arrow_up_1{
+    position: absolute;
+    top: 85px;
+    left: 250px;
+}
+
+#arrow_up_2{
+    position: absolute;
+    top: 190px;
+    left: 250px;
+}
+
+#arrow_right{
+    position: absolute;
+    top: 260px;
+    left: -30px;
+}
+
+#mask_hex{
+    position: absolute;
+    top: 165px;
+    left: 525px;
+}

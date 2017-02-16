@@ -1,0 +1,90 @@
+#m7_ex4_space{
+    position: absolute;
+    left: 10px;
+    top:0;
+    height: 800px;
+    width: 1150px;
+    background-color: white;
+    color: black;
+}
+
+#plc_bsl{
+    position: absolute;
+    top:50px;
+    left:130px;
+    height: 145px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    font-size: 14px;
+    color: black;
+}
+
+#mod7_sec4_ote{
+    position: absolute;
+    top:50px;
+    left:70px;
+}
+
+#mod7_sec4_dash{
+    position:absolute;
+    top:65px;
+    left:20px;
+    background-color: black;
+    height: 2px;
+    width: 200px;
+}
+
+#sec4_ote_name{
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+
+#mod7_sec4_data{
+    /*font-weight: bold;*/
+    position: absolute;
+    left:420px;
+    top:20px;
+}
+
+#sensor_val{
+    width:25px;
+    height:23px;
+    border: 2px solid green;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#arrow_up_down{
+    position: absolute;
+    top: 50px;
+    left: -55px;
+}
+
+#arrow_left_right{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#bottle_exp{
+    position: absolute;
+    left:450px;
+    top:320px;
+}
+
+#mod7_sec4_button_1{
+    position: absolute;
+    left:0px;
+    top:200px;
+}
+
+#bottle_line_text{
+    position: absolute;
+    left:-20px;
+    top:280px;
+}

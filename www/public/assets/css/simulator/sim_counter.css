@@ -1,0 +1,25 @@
+.PLC_counter{
+    position: absolute;
+    height: 95px;
+    width: 125px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    font-size: 14px;
+    color: black;
+}
+.timer_drag_DN{
+    cursor: pointer;
+}
+
+.timer_drag_EN{
+    cursor: pointer;
+}
+
+.timer_drag_hover{
+    background-color: aquamarine;
+}
+
+.accum_border{
+    border: 4px ridge aquamarine;
+}

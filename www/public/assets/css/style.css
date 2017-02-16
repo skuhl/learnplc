@@ -1,0 +1,227 @@
+/* Custom CSS page for all plc pages.     */
+
+/***************************************************************/
+/* Change font to open sans light custom font */
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {font-family:"Open Sans Light";
+src:url("/public/fonts/assets/OpenSansLight/OpenSans-Light.eot") format("eot"),
+url("/public/assets/fonts/OpenSansLight/OpenSans-Light.woff") format("woff"),
+url("/public/assets/fonts/OpenSansLight/OpenSans-Light.ttf") format("truetype"),
+url("/public/assets/fonts/fonts/OpenSansLight/OpenSans-Light.svg#OpenSans-Light") format("svg");
+font-weight:normal;
+font-style:normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
+}
+
+
+/***************************************************************/
+/* HEADER */
+
+/* set title color */
+.title {
+  color: #3498db;
+}
+
+/* fix drop down menu to specified width */
+.header .dropdown-menu {
+  min-width: 250px; 
+}
+
+/* vertically centers nav bar elements (help, user, etc) */
+.header .navbar-nav>li>a {
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+/* colors all link elements (no hover) */
+li a {
+  color: black;
+}
+
+/* Remove styling on logout button (dropdown) */
+#dropdown-logout {
+  padding: 0px;
+  color: black;
+}
+
+.dropdown .btn:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/***************************************************************/
+/* FOOTER */
+
+/* general footer settings */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 5px solid #e5e5e5;
+  background-color: #202020;
+}
+
+/* set color and decoration for footer links */
+.footer a:hover {
+  color: #2980b9;
+}
+
+.footer a, .footer a:link, .footer a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+
+/***************************************************************/
+/* GENERAL PAGES */
+
+/* Remove link text underline from all links */
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+/* Customize container for max with of page content */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* center page announcement */
+.welcome-announcement {
+  text-align: center
+}
+
+/* Gives a bottom border to section headers */
+.section-header {
+  border-bottom: 1px solid black;
+}
+
+/* classes used to set background colors of main pages */
+.div-color-dark { background-color: #e5e5e5; }
+.div-color-light { background-color: #FFFFFF; }
+.div-color-yellow { background-color: #e4e3d5; }
+
+/* Used for login boxes, registering, inputs, etc that need to be a centered div in the container */
+.centered-box {
+  max-width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* The center box used in ABOUT or CONTACT US pages */
+.centered-box-about {
+  max-width: 900px;
+  padding: 10px;
+  margin: 0 auto;
+  /*text-align: center;*/
+}
+
+/* get rid of gray background on nav bar tab */
+.nav>li>a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #3498db;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: white;
+  border-color: white;
+}
+
+/* remove blue border on nav bar focus */
+.dropdown a:focus {
+  outline: none;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+/***************************************************************/
+/* Move to courses css page once merged */
+#courses-collapse-container {
+  padding-top: 20px;
+}
+
+#class-summary-container {
+  display: inline;
+}
+
+#courses-collapse-container .well {
+  margin: 10px;
+}
+
+#courses-collapse-container h4 {
+  display: inline;
+}
+
+#student-progress-table [data-toggle=popover]:hover {
+  color: #2980b9;
+  cursor: pointer;
+}
+
+
+
+/***************************************************************/
+/* Bootstrap dropdown transition */
+/* credit: https://gist.github.com/orizens/4994397 */
+.open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);  
+
+}
+.open > .dropdown-menu li a {
+  color: #000;  
+}
+.dropdown-menu li a{
+  color: #fff;
+}
+.dropdown-menu {
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;  
+  animation-fill-mode: forwards; 
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  display: block;
+
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+}
+.dropup .dropdown-menu {
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;  
+}
+
+.navbar .nav > li > .dropdown-menu:after {
+
+}
+.dropup > .dropdown-menu:after {
+  border-bottom: 0;
+  border-top: 6px solid rgba(39, 45, 51, 0.9);
+  top: auto;
+  display: inline-block;
+  bottom: -6px;
+  content: '';
+  position: absolute;
+  left: 50%;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}

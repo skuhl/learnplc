@@ -1,0 +1,100 @@
+/* adds space below progress bar on module selector to line up correctly */
+.progress {
+  margin-bottom: 10px;
+}
+
+/* Module selector coloring */
+#mod1 h3, #mod1 span, #mod1 .completed-module { color: #e74c3c; }
+#mod1 .progress-bar { background-color: #e74c3c; }
+#mod1 .progress { background-color: #E09F99; }
+
+#mod2 h3, #mod2 span, #mod2 .completed-module { color: #2ecc71; }
+#mod2 .progress-bar { background-color: #2ecc71; }
+#mod2 .progress { background-color: #94E0B4; }
+
+#mod3 h3, #mod3 span, #mod3 .completed-module { color: #f1c40f; }
+#mod3 .progress-bar { background-color: #f1c40f; }
+#mod3 .progress { background-color: #F2E8A2; }
+
+#mod4 h3, #mod4 span, #mod4 .completed-module { color: #9b59b6; }
+#mod4 .progress-bar { background-color: #9b59b6; }
+#mod4 .progress { background-color: #C698D9; }
+
+#mod5 h3, #mod5 span, #mod5 .completed-module { color: #FF8533; }
+#mod5 .progress-bar { background-color: #FF8533; }
+#mod5 .progress { background-color: #FF9D5C; }
+
+#mod6 h3, #mod6 span, #mod6 .completed-module { color: #c0392b; }
+#mod6 .progress-bar { background-color: #c0392b; }
+#mod6 .progress { background-color: #c0392b; }
+
+#mod7 h3, #mod7 span, #mod7 .completed-module { color: #2d8bc9; }
+#mod7 .progress-bar { background-color: #2d8bc9; }
+#mod7 .progress { background-color: #2d8bc9; }
+
+#mod8 h3, #mod8 span, #mod8 .completed-module { color: #34495e; }
+#mod8 .progress-bar { background-color: #34495e; }
+#mod8 .progress { background-color: #34495e; }
+
+#mod9 h3, #mod9 span, #mod9 .completed-module { color: #9b59b6; }
+#mod9 .progress-bar { background-color: #9b59b6; }
+#mod9 .progress { background-color: #9b59b6; }
+
+#mod10 h3, #mod10 span, #mod10 .completed-module { color: #FF8533; }
+#mod10 .progress-bar { background-color: #FF8533; }
+#mod10 .progress { background-color: #FF9D5C; }
+
+#mod11 h3, #mod11 span, #mod11 .completed-module { color: #009999; }
+#mod11 .progress-bar { background-color: #009999; }
+#mod11 .progress { background-color: #4DB8B8; }
+
+#mod12 h3, #mod12 span, #mod12 .completed-module { color: #2929A3; }
+#mod12 .progress-bar { background-color: #2929A3; }
+#mod12 .progress { background-color: #2F2FBD; }
+
+
+/* Module selector styling */
+.module-selector {
+  position: relative;
+  width: 270px;
+  height: 260px;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: black;
+
+  box-shadow: 0px 0px 5px #888888;
+
+  transition: background-color .2s;
+  transition: color .2s;
+}
+
+.module-selector:hover {
+  background-color: #e0e0e0;
+}
+
+/* Module Title */
+.module-selector h3 {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  color: #3498db;
+}
+
+/* Module selector footer */
+.module-footer {
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 5px;
+  margin-left: -10px;
+  width: 100%;
+  border-top: 1px solid white;
+}
+
+/* Colors used in footer to indicate user progress on module */
+.completed-module { color: #3498db; }
+.progress-module { color: black; }
+.unstarted-module { color: #888888; }

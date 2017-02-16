@@ -1,0 +1,137 @@
+.moving-element {
+    -webkit-animation-duration: 1s;
+    /*-webkit-animation-delay: 5s;*/
+    /*-webkit-animation-iteration-count: 3s;*/
+}
+
+#water-hmi {
+    position: absolute;
+    top:0;
+    left:0;
+    /*width: 750px;*/
+    width:96%;
+
+    /*height: 500px;*/
+}
+
+.hmi-button {
+    font-size: medium;
+    width:25%;
+    height:10%;
+}
+
+#hmi-overview {
+    position: absolute;
+    left: 5%;
+    top: 81%;
+}
+
+#hmi-faults {
+    position: absolute;
+    left: 31%;
+    top: 81%;
+}
+
+#hmi-data {
+    position: absolute;
+    left: 57%;
+    top: 81%;
+}
+
+.hmi-block {
+    border: 3px outset #4aa3df;
+    width: 25%;
+    height: 30%;
+}
+
+#pump-block {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+#water-block {
+    position: absolute;
+    top: 42%;
+    left: 5%;
+}
+
+.hmi-tank {
+    font-size: x-large;
+    color: white;
+    border: 1px solid #95a5a6;
+    width: 28%;
+    height: 15%;
+    /*text-align: center;*/
+    background-image: url("/public/assets/img/module12/demo/blue_wave_back.png");
+    background-size: contain;
+    /*background-color: #3498db;*/
+}
+
+#tank1-block {
+    position: absolute;
+    left: 35%;
+    top: 27%;
+}
+
+#tank2-block {
+    position: absolute;
+    left: 66%;
+    top: 27%;
+}
+
+.hmi-title {
+    width: 50%;
+    height: 7%;
+    font-size: medium;
+    text-align: center;
+}
+
+#hmi-pressure {
+    position: absolute;
+    left: 39%;
+    top: 16%;
+}
+
+.tank-info {
+    color: #2980b9;
+    font-size: medium;
+    border: 1px dashed black;
+    width: 24%;
+    height: 22%;
+    text-align: center;
+}
+
+#tank1-txt {
+    position: absolute;
+    left: 37%;
+    top: 47%;
+}
+
+#tank2-txt {
+    position: absolute;
+    left: 68%;
+    top: 47%;
+}
+
+#tank1-connect {
+    position: absolute;
+    top:42%;
+    left:48.5%;
+    background-color: #7f8c8d;
+    width:2px;
+    height:5%;
+}
+
+#tank2-connect {
+    position: absolute;
+    top:42%;
+    left:80%;
+    background-color: #7f8c8d;
+    width:2px;
+    height:5%;
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}

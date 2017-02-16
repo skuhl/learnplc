@@ -1,0 +1,14 @@
+.caret.caret-reversed {
+  border-top-width: 0;
+  border-bottom: 4px solid #000000;
+}
+
+.edit-button {
+  padding: 3px;
+  line-height: 13px;
+}
+
+/* pull help menus to the right */
+.tooltip-enable {
+  float: right;
+}

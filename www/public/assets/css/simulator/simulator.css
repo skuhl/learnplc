@@ -1,0 +1,304 @@
+/*.window {*/
+    /*position: absolute;*/
+    /*width: 64px;*/
+    /*height: 64px;*/
+/*}*/
+
+#plc_sim_container{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+
+    font: large "Trebuchet MS", sans-serif;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*.ui-button{*/
+    /*color: #fff;*/
+    /*background-color: #428bca;*/
+    /*border-color: #357ebd;*/
+    /*background-image: none;*/
+/*}*/
+
+/*.ui-state-hover{*/
+    /*background-color: #3498db;*/
+/*}*/
+
+#LDLCanvas {
+    position: absolute;
+    left: 160px;
+    top: 20px;
+    border: 1px solid #7f8c8d;
+    width: 1100px;
+    height: 500px;
+    font: 130% "Trebuchet MS", sans-serif;
+    background-image: url(/public/assets/img/simulator/line_grid.png);
+    background-size: 50%;
+    color: #2980b9;
+    font-size: medium;
+    text-transform: uppercase;
+
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#simulator_window{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+
+    font: 62.5% "Trebuchet MS", sans-serif;
+    /*padding: 0;*/
+    /*margin: 60px 50px;*/
+}
+
+.m4_ex_submit{
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+    background-image: none;
+}
+
+.m4_ex_submit.ui-state-hover{
+    background-color: #3498db;
+}
+
+.ui-dialog-title{
+    font: 62.5% "Trebuchet MS", sans-serif;
+}
+
+.LDL-line {
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+}
+
+.LDL-tip {
+    width: 2.5px;
+    background-color: #000000;
+    position: absolute;
+}
+
+.tool-container{
+    height: 38px;
+    width: 38px;
+    background: #dcd9de url("custom-theme/images/ui-bg_highlight-soft_100_dcd9de_1x100.png") 50% 50% repeat-x;
+}
+
+.toolcom{
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+#toolaccord {
+    width: 130px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font: 62.5% "Trebuchet MS", sans-serif;
+
+}
+
+#toolaccord ul {
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    height: 300px;
+    border: 1px solid #7f8c8d;
+}
+
+.ui-tooltip{
+}
+
+.icons li {
+    width: 38px;
+    height: 38px;
+    margin: 2px;
+    position: relative;
+    padding: 2px 2px;
+    border: 1px solid #95a5a6;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.dropbox {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #f1c40f;
+}
+
+.line-handle{
+    background-color: #f1c40f;
+}
+
+.dropbox-hover {
+    background-color: #e74c3c;
+}
+
+.truth_table {
+    border: 1px solid black;
+}
+
+.truth_table *{
+    border: 1px solid black;
+}
+
+.LDL-element {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+}
+
+.element_name {
+    top: -23px;
+    left: -4px;
+    position: absolute;
+    color: #2980b9;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.element_active {
+    outline: 4px dashed #2ecc71;
+}
+
+.element_inactive {
+    border: none;
+}
+
+#ThreeJS {
+    position: absolute;
+}
+
+#ports_list {
+    position: absolute;
+    top: 3px;
+    left: 657px;
+    width: 130px;
+    height:260px;
+    padding: 0px;
+}
+
+.icon_list{
+    position: absolute;
+    top:5px;
+    left:2px;
+}
+
+.port_inst {
+    position: relative;
+    border: 1px solid #95a5a6;
+    height: 54px;
+    width: 120px;
+    margin-right: 4px;
+    float: left;
+    margin: 3px;
+    padding: 0px;
+    cursor: pointer;
+
+}
+
+.inst_type{
+    position: absolute;
+    left:30px;
+}
+
+.inst_name{
+    position: absolute;
+    left:40px;
+    top: 18px;
+}
+
+.noclose .ui-dialog-titlebar-close {
+    display: none;
+}
+
+#ports_list .ui-accordion-content {
+    padding: 0;
+}
+
+#mark_item{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(/public/assets/img/simulator/marker_cross.png);
+    background-size: 100% 100%;
+}
+
+.name_icon{
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+}
+.switch_icon{
+    background: url(/public/assets/icon/simulator/icon_swi.png);
+    background-size: 100% 100%;
+}
+
+.sound_icon{
+    background: url(/public/assets/icon/simulator/icon_sound.png);
+    background-size: 100% 100%;
+}
+
+.light_icon{
+    background: url(/public/assets/icon/simulator/icon_light.png);
+    background-size: 100% 100%;
+}
+
+#UNDO{
+    width: 130px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font: small "Trebuchet MS", sans-serif;
+}
+
+#Open_table{
+    width: 130px;
+    position: absolute;
+    left: 20px;
+    top: 490px;
+    font: small "Trebuchet MS", sans-serif;
+}
+
+.red_cross{
+    position: absolute;
+}
+
+.ui-tabs-vertical { height: auto; width: auto; }
+/*.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 5em; }*/
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 110px; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0;
+    font: small "Trebuchet MS", sans-serif;}
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding-top: 3px; padding-right: 20px; float: left; }
+
+.data_matrix * {
+    border: 1px solid black;
+}
+
+.data_matrix>th,tr,td{
+    width: 60px
+}
+
+.data_matrix{
+    background-color: #f1f1c1;
+}
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			function decimalToBinary(number){
+				if(number == 0 || number == 1){
+					return number;
+				}
+				var answer = 0, temp = 2, exponent = 0;
+				while(temp<number){
+					exponent++;
+					temp = temp*2;
+				}
+				for(exponent ; exponent>=0 || number>0 ; exponent--){
+					if(number>=Math.pow(2,exponent)){
+						answer = answer + (Math.pow(10,exponent));
+						number = number - Math.pow(2,exponent);
+					}
+				}
+				return answer;
+			}
+			
+			function generateDecimal(){
+				return Math.round(Math.random()*100);
+			}
+			
+			function generateBinary(){
+				return decimalToBinary(generateBinary());
+			}
+			
+			function binaryToDecimal(number){
+				if(number == 0 || number == 1){
+					return number;
+				}
+				var exponent = 0, answer = 0;
+				while(number > 0){
+					if(number%10 == 1){
+						answer = answer + Math.pow(2,exponent);
+					}
+					number = number / 10;
+					exponent++;
+				}
+				return answer;
+			}
+			
+			function checkBi2Dec(question, answer){
+				if(answer == binaryToDecimal(question)){
+					return true;
+				}
+				else{
+					return false;
+				}
+			}
+			
+			function checkDec2Bi(question, answer){
+				if(answer == decimalToBinary(question)){
+					return true;
+				}
+				else{
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<script>
+			var question1 = generateDecimal();
+			var question2 = decimalToBinary(question1);
+			var question3 = binaryToDecimal(question2);
+			document.write(question1+"      "+question2+"      "+checkDec2Bi(question1, 1)+
+				"\n"+question3+"      "+checkBi2Dec(question2,question3));
+		</script>
+	</body>
+</html>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

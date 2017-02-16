@@ -1,0 +1,9 @@
+/* Remove header on the index page descriptions. Fixes color spacing */
+.descriptions {
+  margin: 0px;
+}
+
+.well-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
